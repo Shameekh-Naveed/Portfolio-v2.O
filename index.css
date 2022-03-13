@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lobster", cursive;
+  background-color: #f1f7f9;
+}
+.navbar {
+  background-color: #01295f;
+  transition: 0.3s ease;
+}
+.special {
+  font-family: "Acme", sans-serif;
+}
+h1 {
+  margin-bottom: 1%;
+  padding-bottom: 0;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  margin: 10px;
+  font-size: 4em !important;
+  color: #01295f;
+}
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 3.2em !important;
+}
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 36px !important;
+}
+hr.style {
+  margin: 0 20% 10px 20%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+/*.about {
+  max-width: 100% !important;
+}*/
+.text {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+.navbar-a {
+  text-decoration: none;
+}
+.navbar-a:hover {
+  text-decoration: none;
+}
+.navbar-brandd {
+  font-family: "Rock Salt", cursive;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #ffb30f;
+}
+
+.project-image {
+  border-radius: 10px;
+}
+.icons {
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.fab,
+.fas {
+  margin: 0px;
+  font-size: 6vw;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+.contact {
+  margin: 10px;
+  margin-bottom: 0;
+  background-color: #7eb6c8;
+  border-radius: 5px;
+}
+.icon-text {
+  color: black;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 0.25em;
+}
+.contact-icon {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+
+  padding-bottom: 0.5em;
+}
+section {
+  margin: 10px;
+  padding: 10px;
+}
+
+.home {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.home video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.home h1 {
+  color: #ffb30fff;
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+/*Color Palette*/
+/* CSS HEX 
+--royal-blue-dark: #01295fff;
+--alice-blue: #f1f7f9ff;
+--honey-yellow: #ffb30fff;*/
+
+@media only screen and (max-width: 576px) {
+  .navbar-brandd {
+    font-size: 1.5em;
+  }
+  .fab,
+  .fas {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar-brandd {
+    font-size: 1.25em;
+  }
+  h1 {
+    font-size: 3em !important;
+  }
+  h2 {
+    font-size: 2.4em !important;
+  }
+}
+/* Media Query for devices with coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background-color: black;
+  }
+
+  header video {
+    display: none;
+  }
+}

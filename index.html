@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/9f4165b385.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Cormorant+Garamond&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap Scripts-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!--End-->
+    <title>Shameekh Naveed</title>
+  </head>
+  <body>
+    <!--class="container-fluid"-->
+    <!--Home Begins-->
+    <div id="home" class="home">
+      <div class="overlay"></div>
+      <video playsinline autoplay muted loop id="bgvid">
+        <source src="bg-vid.mp4" type="video/mp4" />
+      </video>
+      <div class="content h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 data-aos="fade-right">
+              Hi There! I'm <span class="special"> Shameekh Naveed</span>
+            </h1>
+            <h2 data-aos="fade-right">I'm a Front End Web-Developer</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Home Ends-->
+    <!--Navbar Begins-->
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <!--<img class="navbar-brand" src="" alt="Shameekh Naveed" />-->
+      <a href="#" class="navbar-a">
+        <p class="navbar-brandd">
+          Shameekh <span style="color: #849324">Naveed</span>
+        </p></a
+      >
+      <button
+        class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto justify-content-center lead">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Navbar Ends-->
+    <!--About Section Begins-->
+    <section>
+      <div class="about" id="about">
+        <h1 data-aos="fade-right">About Me</h1>
+        <hr class="style" />
+        <div class="row no-gutters">
+          <div data-aos="zoom-in" class="img-container col-12 col-sm-4">
+            <img class="img-fluid" src="itachi.png" alt="A picture of mine" />
+          </div>
+          <div data-aos="zoom-in" class="text col-12 col-sm-8 lead">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              earum sunt perspiciatis ipsa veniam non et eos ea vitae magni
+              distinctio libero veritatis, dolorum corporis voluptates amet
+              dolores harum provident. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Et, in perspiciatis! Molestiae sit non ipsam!
+              Eum et modi, inventore dolorem aliquid expedita. Magni tempora
+              exercitationem quidem, sapiente sunt suscipit ab.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Skills Section Begins-->
+      <div class="skills" id="skills">
+        <h3 data-aos="fade-right">Here are some of my current skills</h3>
+        <div class="icons container-fluid text-center">
+          <div class="row">
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fab fa-html5"
+              style="color: #f16529"
+            >
+              <span class="icon-text"> <br />HTML 5 </span>
+            </i>
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fab fa-css3-alt"
+              style="color: #29a9df"
+            >
+              <span class="icon-text"> <br />CSS 3 </span>
+            </i>
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fab fa-js"
+              style="color: #f7e018"
+            >
+              <span class="icon-text"> <br />JavaScript </span>
+            </i>
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fab fa-bootstrap"
+              style="color: #593698"
+            >
+              <span class="icon-text"> <br />Bootstrap </span>
+            </i>
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fab fa-react"
+              style="color: #79d4f1"
+            >
+              <span class="icon-text"> <br />React </span>
+            </i>
+            <i
+              data-aos="flip-right"
+              class="col-6 col-sm-2 fas fa-mobile-alt"
+              style="color: #3498db"
+            >
+              <span style="font-weight: 400" class="icon-text">
+                <br />Responsive Designs
+              </span>
+            </i>
+          </div>
+          <div class="row">
+            <i
+              data-aos="flip-right"
+              class="col fab fa-leanpub"
+              style="color: #cc8944"
+            >
+              <span class="icon-text"> <br />Constantly Learning </span>
+            </i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Skills Section Ends-->
+    <!--Project Section Begins-->
+    <section class="projects" id="projects">
+      <h1 data-aos="fade-right">Projects</h1>
+      <hr class="style" />
+      <h3 data-aos="fade-right">
+        These are some of the projects I've worked on
+      </h3>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a href="https://musing-bhabha-06aedb.netlify.app/" target="_blank">
+              <img
+                src="https://drive.google.com/uc?export=download&id=1_pYR8TgJ3mc_7Anf4tB8ojXEKDXTN0DV"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a
+              href="https://compassionate-sammet-dd47e8.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="https://drive.google.com/uc?export=download&id=1YEM9LMYVFCVBb32ps-fgS4fC7MKMFonN"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a
+              href="https://suspicious-hugle-281433.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="https://drive.google.com/uc?export=download&id=1ZQgCZsWsnV_WoFNLBDKyYl-KLSaunYHx"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+        </div>
+        <div class="row">
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a href="https://boring-cray-532d18.netlify.app/" target="_blank">
+              <img
+                src="https://drive.google.com/uc?export=download&id=1LzDN9A8QixX_IzdDsyOOYjMzrRoLbQpb"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a
+              href="https://suspicious-raman-d2a245.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="https://drive.google.com/uc?export=download&id=1mersRhryoBqnWj_fm80mHKpnrRwKOTgv"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a
+              href="https://amazing-leakey-6a2bd6.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="https://drive.google.com/uc?export=download&id=1EVPVKp5HhBO39edR5fOkC-TJ0XwXY1wV"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+        </div>
+        <div class="row">
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a href="https://cocky-bartik-b9e3b0.netlify.app/" target="_blank">
+              <img
+                src="https://drive.google.com/uc?export=download&id=1P9zybsvyWex5BO_HY8wO2PKDxXmJD-jn"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+          <figure data-aos="zoom-in" class="col-12 col-sm-4">
+            <a href="https://fervent-wing-dff892.netlify.app/" target="_blank">
+              <img
+                src="https://drive.google.com/uc?export=download&id=1QN3zWa8wYAIMV3RjMmXw5oZ-IEawtqHU"
+                alt=""
+                class="img-fluid project-image"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Visit Me!"
+              />
+            </a>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--Project Section Ends-->
+    <!--Contact Section Begins-->
+    <section class="contact" id="contact">
+      <h1 data-aos="fade-right">Contact</h1>
+      <hr class="style" />
+      <h3 data-aos="fade-right">
+        Drop by & say Hello. I'm pretty bored anyways
+      </h3>
+      <div data-aos="fade-right" class="container-fluid contact-icons">
+        <div class="row">
+          <div class="col text-right">
+            <a
+              style="color: #026cdf"
+              class="contact-icon"
+              href=""
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Say hello on Facebook!"
+            >
+              <i class="fab fa-facebook-square" style="font-size: 4em"></i>
+            </a>
+          </div>
+          <div class="col text-center" style="margin: 10px">
+            <a
+              class="contact-icon"
+              href=""
+              data-toggle="tooltip"
+              data-placement="right"
+              title="DM me on Instagram!"
+            >
+              <!----><img
+                class=""
+                src="ig-icon.svg"
+                alt=""
+                style="width: 4em; height: 4em"
+              />
+            </a>
+          </div>
+          <div class="col text-left">
+            <button
+              style="color: #ffb30f"
+              id="email"
+              class="contact-icon btn"
+              type="button"
+              data-toggle="tooltip"
+              data-placement="right"
+              title="Click to copy my Email Address"
+              data-clipboard-text="shameekh2002@gmail.com"
+            >
+              <i class="fas fa-envelope" style="font-size: 4em"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact Section Ends-->
+    <!--Scripts-->
+    <script>
+      // JQuery Starts // Hope it works
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      // JQuery Ends // Hope it works
+    </script>
+    <script src="clipboard.js-master/dist/clipboard.min.js"></script>
+    <script>
+      //JS Starts
+      // Navbar setting
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-60px";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+      // Email Address Copier
+      var btn = document.getElementById("email");
+      var clipboard = new ClipboardJS(btn);
+      clipboard.on("success", function (e) {
+        alert(
+          "Yay! My Email Address has been copied to your clipboard. Be sure to hit me up!"
+        );
+        console.log(e);
+      });
+
+      clipboard.on("error", function (e) {
+        console.log(e);
+        alert(
+          "Sorry this happened. You can just manually copy my Email Address shameekh2002@gmail.com"
+        );
+      });
+      /*copyEmail = () => {
+           alert(
+             "Yay! My Email Address has been copied to your clipboard. Be sure to hit me up!"
+           );
+         };*/
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
